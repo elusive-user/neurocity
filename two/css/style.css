@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0;
+}
+
+.container {
+	text-align: center;
+}
+
+#imageCanvas {
+	display: block;
+	margin: 20px auto;
+	border: 2px solid #ddd;
+	max-width: 90%;
+}
+
+.controls {
+	margin-top: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	margin: 10px;
+	cursor: pointer;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
